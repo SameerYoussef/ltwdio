@@ -1,4 +1,6 @@
-## WebdriverIO out-of-the-box support for LambdaTest using GeoEdge
+## WebdriverIO out-of-the-box support for LambdaTest using GeoLocation (via GeoEdge) and Cucumber
+
+I've stripped down `wdio.conf.js` to the bare minimum required except for the `LT:Options` capability object which I added as much as possible based on LambdaTest's configuration generation tool: https://www.lambdatest.com/capabilities-generator/
 
 ### To run:
 
